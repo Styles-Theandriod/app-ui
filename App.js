@@ -1,11 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import Homescreen from './assets/component/Homescreen';
+import Quiz from './assets/component/Quiz';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Homescreen/>
+      {/* <Homescreen/> */}
       <Quiz/>
     </View>
   );
