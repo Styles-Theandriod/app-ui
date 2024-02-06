@@ -2,7 +2,7 @@ import { StyleSheet, Text, View, TouchableOpacity, ScrollView } from "react-nati
 import React from "react";
 import Ionicons from "react-native-vector-icons/Ionicons";
 
-const Quiz = () => {
+const QuizAndroid = () => {
   return (
     <ScrollView style={styles.wrap}>
       <View style={styles.header}>
@@ -42,7 +42,7 @@ const Quiz = () => {
   );
 };
 
-export default Quiz;
+export default QuizAndroid;
 
 const styles = StyleSheet.create({
   wrap: {
